@@ -225,6 +225,8 @@ GameObject:
   - component: {fileID: 1136984535}
   - component: {fileID: 1136984534}
   - component: {fileID: 1136984536}
+  - component: {fileID: 1136984537}
+  - component: {fileID: 1136984538}
   m_Layer: 0
   m_Name: TestObject
   m_TagString: Untagged
@@ -239,7 +241,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136984533}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1dd85f553405db24d917ebd63342a9a4, type: 3}
   m_Name: 
@@ -272,9 +274,40 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136984533}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 230130913d975334291b2d62a2885da6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1136984537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136984533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8918f5c7dae6a614a9a3d6670b6eefa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  age1: 37
+  age2: 20
+  isMan: 1
+  runState: 0
+  walkState: 0
+  endCount: 100
+  printMax: 5
+--- !u!114 &1136984538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136984533}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbce3aed3ed8384fbe753c2612a38fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1425362649

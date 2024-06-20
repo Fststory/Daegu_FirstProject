@@ -75,7 +75,7 @@ public class FirstCoding : MonoBehaviour
     // }
 
     // 두 정수를 입력 받아서 그 두 수의 합계 값을 정수 형태로 반환하는 함수를 만들고 싶다!
-    int Sum(int num1, int num2)
+    public int Sum(int num1, int num2)
     {
         return num1 + num2;
     }
