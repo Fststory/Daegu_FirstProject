@@ -137,11 +137,13 @@ public class SecondCoding : MonoBehaviour
         //}
 
         // 1부터 100까지 다 더한 값을 sum이라는 변수에 저장해서 출력한다.
-        //for(int i = 0; i < endCount; i++)
-        //{
-        //    sum += i + 1;
-        //}
-        //print(sum);
+        for (int i = 0; i < endCount; i++)
+        {
+            sum += i + 1;
+        }
+        print("원하시는 합계 값은 " + sum.ToString() + "입니다.");
+        // 유니티에서는 sum.ToString() 대신 sum 만 써도 print 함수 내에 구현되어있기에 결과는 나온다.
+        // 하지만 정석적으로 하는 방법을 익히자. 
 
         // 누적식
         //int num = 0;
