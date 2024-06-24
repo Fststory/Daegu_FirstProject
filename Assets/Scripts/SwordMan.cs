@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SwordMan : MonoBehaviour
 {
-    #region Property
+    #region getsetProperty
     //public int healthPoint
     //{
     //    get // 읽어오기
@@ -31,7 +31,7 @@ public class SwordMan : MonoBehaviour
     public float attackPower = 5.5f;
     public string myname = "검객";
 
-    // 생성자 함수(Constructor)
+    // 생성자(Constructor) 함수
     public SwordMan(int health, float atk, string nickName)
     {
         hp = health;
